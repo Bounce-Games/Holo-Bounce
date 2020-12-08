@@ -14,18 +14,16 @@ public class CameraController : MonoBehaviour
         myCamera = GetComponent<Camera>();
         cameraCollider = GetComponent<EdgeCollider2D>();
         edgePoints = new Vector2[5];
-        UpdateCrop();
         SetEdgeColliders();
     }
 
-    void Update()
-    {
-        if (Screen.width != targetAspect.x || Screen.height != targetAspect.y)
-        {
-            UpdateCrop();
-            SetEdgeColliders();
-        }
-    }
+    //void Update()
+    //{
+    //    if (Screen.width != targetAspect.x || Screen.height != targetAspect.y)
+    //    {
+    //        SetEdgeColliders();
+    //    }
+    //}
 
     //Adapted from: https://gamedev.stackexchange.com/questions/144575/how-to-force-keep-the-aspect-ratio-and-specific-resolution-without-stretching-th
     // Call this method if your window size or target aspect change.
