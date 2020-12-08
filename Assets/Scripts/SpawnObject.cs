@@ -10,7 +10,7 @@ public class SpawnObject : MonoBehaviour
     public void Start()
     {
         spawnRandom = true;
-        objs = Resources.LoadAll<ObjectController>("Prefabs/FumoPrefabs"); //INSERT PATH OF OBJECT PREFABS
+        objs = Resources.LoadAll<ObjectController>("Prefabs/HoloPrefabs"); //INSERT PATH OF OBJECT PREFABS
     }
     public void InstantiateObject()
     {

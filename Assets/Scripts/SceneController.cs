@@ -6,7 +6,7 @@ public class SceneController : MonoBehaviour
 
     void Start()
     {
-        //QualitySettings.vSyncCount = 1;
+        QualitySettings.vSyncCount = 1;
         mySpawnObj = FindObjectOfType<SpawnObject>();
     }
 
