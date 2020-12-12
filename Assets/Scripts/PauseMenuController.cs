@@ -13,10 +13,6 @@ public class PauseMenuController : MonoBehaviour
 
     void Start()
     {
-        bird.transform.localScale = new Vector3(0.21f, 0.21f, 0f);
-        bonk.transform.localScale = new Vector3(0.2f, 0.2f, 0f);
-        thisIsTrue.transform.localScale = new Vector3(1f, 1f, 0f);
-
         mySpawnObj = FindObjectOfType<SpawnObject>();
         Resume();
     }

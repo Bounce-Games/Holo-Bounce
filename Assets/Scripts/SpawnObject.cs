@@ -7,34 +7,19 @@ public class SpawnObject : MonoBehaviour
     public bool spawnRandom;
 
     [SerializeField] private Scrollbar sizeScrollbar;
+    [SerializeField] private Toggle toggleSpawnRandom;
 
     private ObjectController[] objs;
 
     private float sizeToSpawn;
-    private float birdSize;
-    private float bonkSize;
-    private float thisIsTrueSize;
+    private const float birdSize = 0.22f;
+    private const float bonkSize = 0.2f;
+    private const float thisIsTrueSize = 1f;
 
     public void Start()
     {
         spawnRandom = true;
         objs = Resources.LoadAll<ObjectController>("Prefabs/HoloPrefabs"); //INSERT PATH OF OBJECT PREFABS
-
-        foreach (ObjectController obj in objs)
-        {
-            switch (obj.name)
-            {
-                case "Bird":
-                    birdSize = obj.gameObject.transform.localScale.x;
-                    break;
-                case "Bonk":
-                    bonkSize = obj.gameObject.transform.localScale.x;
-                    break;
-                case "This is True":
-                    thisIsTrueSize = obj.gameObject.transform.localScale.x;
-                    break;
-            }
-        }
     }
 
     public void InstantiateObject()
@@ -44,17 +29,35 @@ public class SpawnObject : MonoBehaviour
             objToSpawn = objs[Random.Range(0, objs.Length)].gameObject;
         }
 
-        switch (objToSpawn.name)
+        if (toggleSpawnRandom.isOn)
         {
-            case "Bird":
-                sizeToSpawn = birdSize * (sizeScrollbar.value + 0.5f);
-                break;
-            case "Bonk":
-                sizeToSpawn = bonkSize * (sizeScrollbar.value + 0.5f);
-                break;
-            case "This is True":
-                sizeToSpawn = thisIsTrueSize * (sizeScrollbar.value + 0.5f);
-                break;
+            switch (objToSpawn.name)
+            {
+                case "Bird":
+                    sizeToSpawn = birdSize * Random.Range(0.5f, 1.5f);
+                    break;
+                case "Bonk":
+                    sizeToSpawn = bonkSize * Random.Range(0.5f, 1.5f);
+                    break;
+                case "This is True":
+                    sizeToSpawn = thisIsTrueSize * Random.Range(0.5f, 1.5f);
+                    break;
+            }
+        }
+        else
+        {
+            switch (objToSpawn.name)
+            {
+                case "Bird":
+                    sizeToSpawn = birdSize * (sizeScrollbar.value + 0.5f);
+                    break;
+                case "Bonk":
+                    sizeToSpawn = bonkSize * (sizeScrollbar.value + 0.5f);
+                    break;
+                case "This is True":
+                    sizeToSpawn = thisIsTrueSize * (sizeScrollbar.value + 0.5f);
+                    break;
+            }
         }
 
         objToSpawn.transform.localScale = new Vector3(sizeToSpawn, sizeToSpawn, 0f);
