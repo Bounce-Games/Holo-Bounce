@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.Rendering;
 
 public class PauseMenuController : MonoBehaviour
 {
@@ -33,6 +34,7 @@ public class PauseMenuController : MonoBehaviour
 
     public void Resume()
     {
+        OnDemandRendering.renderFrameInterval = 1;
         Time.timeScale = 1f;
         pauseMenu.SetActive(false);
         pauseMenu.transform.Find("ResumeButton").transform.localScale = new Vector3(1f, 1f, 1f);
@@ -41,6 +43,7 @@ public class PauseMenuController : MonoBehaviour
 
     public void Pause()
     {
+        OnDemandRendering.renderFrameInterval = 2;
         Time.timeScale = 0f;
         pauseMenu.SetActive(true);
         gamePaused = true;

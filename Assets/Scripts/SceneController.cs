@@ -15,6 +15,9 @@ public class SceneController : MonoBehaviour
 
     void Start()
     {
+        QualitySettings.vSyncCount = 0;
+        Application.targetFrameRate = Screen.currentResolution.refreshRate;
+
         mySpawnObj = FindObjectOfType<SpawnObject>();
         pauseMenu = FindObjectOfType<PauseMenuController>();
     }
