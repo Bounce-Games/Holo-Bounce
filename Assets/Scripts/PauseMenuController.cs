@@ -4,15 +4,13 @@ public class PauseMenuController : MonoBehaviour
 {
     [SerializeField] private GameObject pauseMenu = null;
 
-    [SerializeField] private GameObject bird = null;
-    [SerializeField] private GameObject bonk = null;
-    [SerializeField] private GameObject thisIsTrue = null;
-
-    private bool gamePaused;
+    public bool gamePaused;
+    private SceneController sceneController;
     private SpawnObject mySpawnObj;
 
     void Start()
     {
+        sceneController = FindObjectOfType<SceneController>();
         mySpawnObj = FindObjectOfType<SpawnObject>();
         Resume();
     }
@@ -61,13 +59,13 @@ public class PauseMenuController : MonoBehaviour
                 mySpawnObj.spawnRandom = true;
                 break;
             case 1:
-                mySpawnObj.objToSpawn = bird;
+                mySpawnObj.objToSpawn = sceneController.bird;
                 break;
             case 2:
-                mySpawnObj.objToSpawn = bonk;
+                mySpawnObj.objToSpawn = sceneController.bonk;
                 break;
             case 3:
-                mySpawnObj.objToSpawn = thisIsTrue;
+                mySpawnObj.objToSpawn = sceneController.thisIsTrue;
                 break;
         }
     }

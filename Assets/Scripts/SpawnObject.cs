@@ -12,9 +12,6 @@ public class SpawnObject : MonoBehaviour
     private ObjectController[] objs;
 
     private float sizeToSpawn;
-    private const float birdSize = 0.22f;
-    private const float bonkSize = 0.2f;
-    private const float thisIsTrueSize = 1f;
 
     public void Start()
     {
@@ -34,13 +31,13 @@ public class SpawnObject : MonoBehaviour
             switch (objToSpawn.name)
             {
                 case "Bird":
-                    sizeToSpawn = birdSize * Random.Range(0.5f, 1.5f);
+                    sizeToSpawn = SceneController.birdSize * Random.Range(0.5f, 1.5f);
                     break;
                 case "Bonk":
-                    sizeToSpawn = bonkSize * Random.Range(0.5f, 1.5f);
+                    sizeToSpawn = SceneController.bonkSize * Random.Range(0.5f, 1.5f);
                     break;
                 case "This is True":
-                    sizeToSpawn = thisIsTrueSize * Random.Range(0.5f, 1.5f);
+                    sizeToSpawn = SceneController.thisIsTrueSize * Random.Range(0.5f, 1.5f);
                     break;
             }
         }
@@ -49,13 +46,13 @@ public class SpawnObject : MonoBehaviour
             switch (objToSpawn.name)
             {
                 case "Bird":
-                    sizeToSpawn = birdSize * (sizeScrollbar.value + 0.5f);
+                    sizeToSpawn = SceneController.birdSize * (sizeScrollbar.value + 0.5f);
                     break;
                 case "Bonk":
-                    sizeToSpawn = bonkSize * (sizeScrollbar.value + 0.5f);
+                    sizeToSpawn = SceneController.bonkSize * (sizeScrollbar.value + 0.5f);
                     break;
                 case "This is True":
-                    sizeToSpawn = thisIsTrueSize * (sizeScrollbar.value + 0.5f);
+                    sizeToSpawn = SceneController.thisIsTrueSize * (sizeScrollbar.value + 0.5f);
                     break;
             }
         }
