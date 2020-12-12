@@ -69,4 +69,9 @@ public class PauseMenuController : MonoBehaviour
                 break;
         }
     }
+
+    public void OpenGitHub()
+    {
+        Application.OpenURL("https://github.com/Bounce-Games/Holo-Bounce");
+    }
 }
