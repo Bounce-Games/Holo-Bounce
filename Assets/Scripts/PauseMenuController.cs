@@ -77,4 +77,9 @@ public class PauseMenuController : MonoBehaviour
     {
         Application.OpenURL("https://github.com/Bounce-Games/Holo-Bounce");
     }
+
+    public void OpenTwitter()
+    {
+        Application.OpenURL("https://twitter.com/walfieee");
+    }
 }

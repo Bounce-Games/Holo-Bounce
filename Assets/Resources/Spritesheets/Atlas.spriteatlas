@@ -44,10 +44,19 @@ SpriteAtlas:
     packables:
     - {fileID: 2800000, guid: 1425ca4d74c24c04cb0273b5d42aa99c, type: 3}
     - {fileID: 2800000, guid: 5e10045ed230d0f4eb820bd55268a2e6, type: 3}
-    totalSpriteSurfaceArea: 1856272
+    - {fileID: 2800000, guid: 011a4c63fa087374aac2c9e9ef6fba6f, type: 3}
+    totalSpriteSurfaceArea: 2024624
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
+  - {fileID: 7196305740646549494, guid: 011a4c63fa087374aac2c9e9ef6fba6f, type: 3}
+  - {fileID: -6694317583563532506, guid: 011a4c63fa087374aac2c9e9ef6fba6f, type: 3}
+  - {fileID: 2659201632620351411, guid: 011a4c63fa087374aac2c9e9ef6fba6f, type: 3}
+  - {fileID: 93206908551612411, guid: 011a4c63fa087374aac2c9e9ef6fba6f, type: 3}
+  - {fileID: 2187684499648379989, guid: 011a4c63fa087374aac2c9e9ef6fba6f, type: 3}
+  - {fileID: -6692371286925340687, guid: 011a4c63fa087374aac2c9e9ef6fba6f, type: 3}
+  - {fileID: -5100428498489798199, guid: 011a4c63fa087374aac2c9e9ef6fba6f, type: 3}
+  - {fileID: 1839827213146298865, guid: 011a4c63fa087374aac2c9e9ef6fba6f, type: 3}
   - {fileID: 3088215013174724993, guid: 1425ca4d74c24c04cb0273b5d42aa99c, type: 3}
   - {fileID: -7302643359093655801, guid: 1425ca4d74c24c04cb0273b5d42aa99c, type: 3}
   - {fileID: 5257829688914787120, guid: 1425ca4d74c24c04cb0273b5d42aa99c, type: 3}
@@ -63,6 +72,14 @@ SpriteAtlas:
   - {fileID: 9114892133469047187, guid: 5e10045ed230d0f4eb820bd55268a2e6, type: 3}
   - {fileID: 2285645830402365188, guid: 5e10045ed230d0f4eb820bd55268a2e6, type: 3}
   m_PackedSpriteNamesToIndex:
+  - this is true_6
+  - this is true_7
+  - this is true_4
+  - this is true_5
+  - this is true_2
+  - this is true_3
+  - this is true_0
+  - this is true_1
   - bird_6
   - bird_5
   - bird_4
