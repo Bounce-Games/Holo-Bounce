@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>%UNITY_WEB_NAME%</title>
+    <title>Holo Bounce</title>
     <style>
       html {
         box-sizing: border-box;
@@ -99,9 +99,9 @@
     </div>
   </body>
 
-  <script src="%UNITY_WEBGL_LOADER_URL%"></script>
+  <script src="Build/UnityLoader.js"></script>
   <script>
-  var gameInstance = UnityLoader.instantiate("gameContainer", "%UNITY_WEBGL_BUILD_URL%", {onProgress: UnityProgress});
+  var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Build.json", {onProgress: UnityProgress});
   function UnityProgress(gameInstance, progress) {
     if (!gameInstance.Module) {
       return;
