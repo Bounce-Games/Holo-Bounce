@@ -121,9 +121,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 145
-        y: 998
-        width: 725
-        height: 1002
+        y: 0
+        width: 727
+        height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,10 +141,10 @@ TextureImporter:
       name: holobirds_1
       rect:
         serializedVersion: 2
-        x: 1149
-        y: 998
+        x: 1150
+        y: 0
         width: 747
-        height: 976
+        height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,10 +162,10 @@ TextureImporter:
       name: holobirds_2
       rect:
         serializedVersion: 2
-        x: 2150
-        y: 998
-        width: 693
-        height: 981
+        x: 2149
+        y: 0
+        width: 694
+        height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -183,10 +183,10 @@ TextureImporter:
       name: holobirds_3
       rect:
         serializedVersion: 2
-        x: 3153
-        y: 998
-        width: 701
-        height: 981
+        x: 3151
+        y: 0
+        width: 703
+        height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,9 +205,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 4153
-        y: 998
-        width: 714
-        height: 984
+        y: 0
+        width: 715
+        height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,10 +225,10 @@ TextureImporter:
       name: holobirds_5
       rect:
         serializedVersion: 2
-        x: 154
+        x: 5152
         y: 0
         width: 726
-        height: 980
+        height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

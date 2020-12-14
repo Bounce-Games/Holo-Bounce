@@ -1,18 +1,28 @@
 ﻿using UnityEngine;
 using UnityEngine.Rendering;
+using TMPro;
+using System.Collections.Generic;
 
 public class PauseMenuController : MonoBehaviour
 {
     [SerializeField] private GameObject pauseMenu = null;
+    [SerializeField] private TMP_Dropdown dropdown = null;
 
     public bool gamePaused;
-    private SceneController sceneController;
     private SpawnObject mySpawnObj;
 
     void Start()
     {
-        sceneController = FindObjectOfType<SceneController>();
         mySpawnObj = FindObjectOfType<SpawnObject>();
+
+        List<string> options = new List<string>();
+        options.Add("Random");
+        foreach(GameObject obj in SceneController.objs)
+        {
+            options.Add(obj.name);
+        }
+        AddDropdownOptions(dropdown, options);
+
         Resume();
     }
 
@@ -49,28 +59,17 @@ public class PauseMenuController : MonoBehaviour
         gamePaused = true;
     }
 
+    public void AddDropdownOptions(TMP_Dropdown dropdown, List<string> options)
+    {
+        dropdown.ClearOptions();
+        dropdown.AddOptions(options);
+    }
+
     public void SelectObj(int selection)
     {
-        if (selection != 0)
-        {
-            mySpawnObj.spawnRandom = false;
-        }
-
-        switch (selection)
-        {
-            case 0:
-                mySpawnObj.spawnRandom = true;
-                break;
-            case 1:
-                mySpawnObj.objToSpawn = sceneController.bird;
-                break;
-            case 2:
-                mySpawnObj.objToSpawn = sceneController.bonk;
-                break;
-            case 3:
-                mySpawnObj.objToSpawn = sceneController.thisIsTrue;
-                break;
-        }
+        mySpawnObj.spawnRandom = selection == 0;
+        if (selection == 0) return;
+        mySpawnObj.objToSpawn = SceneController.objs[selection - 1];
     }
 
     public void OpenGitHub()

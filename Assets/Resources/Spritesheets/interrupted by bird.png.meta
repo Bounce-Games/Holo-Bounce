@@ -1,28 +1,25 @@
 fileFormatVersion: 2
-guid: 5e10045ed230d0f4eb820bd55268a2e6
+guid: b56a9aaab439ef64590811f76c3c5a67
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8677607035557551615
-    second: bonk_0
+      213: 4574864969237544553
+    second: interrupted by bird_0
   - first:
-      213: -834547140247273245
-    second: bonk_1
+      213: 8414959502583398964
+    second: interrupted by bird_1
   - first:
-      213: 1420083413037608591
-    second: bonk_2
+      213: -317375203023106147
+    second: interrupted by bird_2
   - first:
-      213: -5764648503262155133
-    second: bonk_3
+      213: 4982949678109998243
+    second: interrupted by bird_3
   - first:
-      213: 9114892133469047187
-    second: bonk_4
+      213: 987849994501868378
+    second: interrupted by bird_4
   - first:
-      213: 2285645830402365188
-    second: bonk_5
-  - first:
-      213: -1947564464335481952
-    second: bonk_6
+      213: 1546047534537300553
+    second: interrupted by bird_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -120,13 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bonk_0
+      name: interrupted by bird_0
       rect:
         serializedVersion: 2
-        x: 163
-        y: 23
-        width: 702
-        height: 869
+        x: 37
+        y: 42
+        width: 670
+        height: 751
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,20 +131,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ffd96d67f9d0d6870800000000000000
-      internalID: 8677607035557551615
+      spriteID: 96e38ca637f2d7f30800000000000000
+      internalID: 4574864969237544553
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bonk_1
+      name: interrupted by bird_1
       rect:
         serializedVersion: 2
-        x: 923
-        y: 23
-        width: 843
-        height: 866
+        x: 1032
+        y: 37
+        width: 584
+        height: 731
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,20 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e04e3d2cc71b64f0800000000000000
-      internalID: -834547140247273245
+      spriteID: 43208ce4511f7c470800000000000000
+      internalID: 8414959502583398964
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bonk_2
+      name: interrupted by bird_2
       rect:
         serializedVersion: 2
-        x: 1878
-        y: 23
-        width: 773
-        height: 857
+        x: 1904
+        y: 37
+        width: 551
+        height: 719
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,20 +173,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8ee789175625b310800000000000000
-      internalID: 1420083413037608591
+      spriteID: d9f4a433fe4789bf0800000000000000
+      internalID: -317375203023106147
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bonk_3
+      name: interrupted by bird_3
       rect:
         serializedVersion: 2
-        x: 2715
-        y: 20
-        width: 809
-        height: 857
+        x: 2775
+        y: 47
+        width: 534
+        height: 716
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,20 +194,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38e621c8abadfffa0800000000000000
-      internalID: -5764648503262155133
+      spriteID: 3acb469d45ef62540800000000000000
+      internalID: 4982949678109998243
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bonk_4
+      name: interrupted by bird_4
       rect:
         serializedVersion: 2
-        x: 3573
-        y: 23
-        width: 842
-        height: 857
+        x: 3582
+        y: 47
+        width: 604
+        height: 703
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,20 +215,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 399cc654a1a9e7e70800000000000000
-      internalID: 9114892133469047187
+      spriteID: a5bc7ad065c85bd00800000000000000
+      internalID: 987849994501868378
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bonk_5
+      name: interrupted by bird_5
       rect:
         serializedVersion: 2
-        x: 4516
-        y: 17
-        width: 800
-        height: 869
+        x: 4496
+        y: 37
+        width: 564
+        height: 726
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,29 +236,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4075c7bd5ce38bf10800000000000000
-      internalID: 2285645830402365188
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bonk_6
-      rect:
-        serializedVersion: 2
-        x: 5447
-        y: 23
-        width: 751
-        height: 869
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0a31c16307cd8f4e0800000000000000
-      internalID: -1947564464335481952
+      spriteID: 94ad6f59a0aa47510800000000000000
+      internalID: 1546047534537300553
       vertices: []
       indices: 
       edges: []

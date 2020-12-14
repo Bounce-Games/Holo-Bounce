@@ -1,28 +1,37 @@
 fileFormatVersion: 2
-guid: 5e10045ed230d0f4eb820bd55268a2e6
+guid: 1d639811ad769ed46b66ca8420e9df43
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8677607035557551615
-    second: bonk_0
+      213: -3348242811665613608
+    second: gold mining_0
   - first:
-      213: -834547140247273245
-    second: bonk_1
+      213: -153912823461996842
+    second: gold mining_1
   - first:
-      213: 1420083413037608591
-    second: bonk_2
+      213: -6127733682631475419
+    second: gold mining_2
   - first:
-      213: -5764648503262155133
-    second: bonk_3
+      213: 2618488069996893009
+    second: gold mining_3
   - first:
-      213: 9114892133469047187
-    second: bonk_4
+      213: -3451609739022567116
+    second: gold mining_4
   - first:
-      213: 2285645830402365188
-    second: bonk_5
+      213: 4561001104309689310
+    second: gold mining_5
   - first:
-      213: -1947564464335481952
-    second: bonk_6
+      213: 2274172613044885682
+    second: gold mining_6
+  - first:
+      213: 4842024199400026786
+    second: gold mining_7
+  - first:
+      213: -3629334652858623187
+    second: gold mining_8
+  - first:
+      213: -6082544896675995572
+    second: gold mining_9
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -120,148 +129,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bonk_0
+      name: gold mining_0
       rect:
         serializedVersion: 2
-        x: 163
-        y: 23
-        width: 702
-        height: 869
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ffd96d67f9d0d6870800000000000000
-      internalID: 8677607035557551615
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bonk_1
-      rect:
-        serializedVersion: 2
-        x: 923
-        y: 23
-        width: 843
-        height: 866
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3e04e3d2cc71b64f0800000000000000
-      internalID: -834547140247273245
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bonk_2
-      rect:
-        serializedVersion: 2
-        x: 1878
-        y: 23
-        width: 773
-        height: 857
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f8ee789175625b310800000000000000
-      internalID: 1420083413037608591
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bonk_3
-      rect:
-        serializedVersion: 2
-        x: 2715
+        x: 73
         y: 20
-        width: 809
-        height: 857
+        width: 582
+        height: 657
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38e621c8abadfffa0800000000000000
-      internalID: -5764648503262155133
+      spriteID: 8dc7aec07e6a881d0800000000000000
+      internalID: -3348242811665613608
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bonk_4
+      name: gold mining_2
       rect:
         serializedVersion: 2
-        x: 3573
-        y: 23
-        width: 842
-        height: 857
+        x: 803
+        y: 21
+        width: 567
+        height: 664
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 399cc654a1a9e7e70800000000000000
-      internalID: 9114892133469047187
+      spriteID: 52ffd888eaae5faa0800000000000000
+      internalID: -6127733682631475419
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bonk_5
+      name: gold mining_3
       rect:
         serializedVersion: 2
-        x: 4516
+        x: 1518
+        y: 16
+        width: 569
+        height: 679
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15353ccb60db65420800000000000000
+      internalID: 2618488069996893009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold mining_5
+      rect:
+        serializedVersion: 2
+        x: 2226
+        y: 21
+        width: 585
+        height: 685
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb1b82d65eeb4f30800000000000000
+      internalID: 4561001104309689310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold mining_8
+      rect:
+        serializedVersion: 2
+        x: 2952
         y: 17
-        width: 800
-        height: 869
+        width: 582
+        height: 697
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4075c7bd5ce38bf10800000000000000
-      internalID: 2285645830402365188
+      spriteID: d2b985dbc5302adc0800000000000000
+      internalID: -3629334652858623187
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bonk_6
+      name: gold mining_9
       rect:
         serializedVersion: 2
-        x: 5447
-        y: 23
-        width: 751
-        height: 869
+        x: 3642
+        y: 14
+        width: 609
+        height: 682
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a31c16307cd8f4e0800000000000000
-      internalID: -1947564464335481952
+      spriteID: c402347a4a5769ba0800000000000000
+      internalID: -6082544896675995572
       vertices: []
       indices: 
       edges: []

@@ -7,53 +7,43 @@ public class SpawnObject : MonoBehaviour
     public bool spawnRandom;
 
     [SerializeField] private Scrollbar sizeScrollbar;
-    [SerializeField] private Toggle toggleSpawnRandom;
-
-    private ObjectController[] objs;
+    [SerializeField] private Toggle randomSizeToggle;
 
     private float sizeToSpawn;
+    private float sizeMultiplier;
 
     public void Start()
     {
         spawnRandom = true;
-        objs = Resources.LoadAll<ObjectController>("Prefabs/HoloPrefabs"); //INSERT PATH OF OBJECT PREFABS
+        foreach (GameObject obj in SceneController.objs)
+        {
+            Debug.Log(obj.name);
+        }
     }
 
     public void InstantiateObject()
     {
         if (spawnRandom)
         {
-            objToSpawn = objs[Random.Range(0, objs.Length)].gameObject;
+            objToSpawn = SceneController.objs[Random.Range(0, SceneController.objs.Length)];
         }
 
-        if (toggleSpawnRandom.isOn)
+        switch (randomSizeToggle.isOn)
         {
-            switch (objToSpawn.name)
-            {
-                case "Bird":
-                    sizeToSpawn = SceneController.birdSize * Random.Range(0.5f, 1.5f);
-                    break;
-                case "Bonk":
-                    sizeToSpawn = SceneController.bonkSize * Random.Range(0.5f, 1.5f);
-                    break;
-                case "This is True":
-                    sizeToSpawn = SceneController.thisIsTrueSize * Random.Range(0.5f, 1.5f);
-                    break;
-            }
+            case true:
+                sizeMultiplier = Random.Range(0.5f, 1.5f);
+                break;
+            case false:
+                sizeMultiplier = sizeScrollbar.value + 0.5f;
+                break;
         }
-        else
+
+        for (int i = 0; i < SceneController.objs.Length; i++)
         {
-            switch (objToSpawn.name)
+            if (objToSpawn.name == SceneController.objs[i].name)
             {
-                case "Bird":
-                    sizeToSpawn = SceneController.birdSize * (sizeScrollbar.value + 0.5f);
-                    break;
-                case "Bonk":
-                    sizeToSpawn = SceneController.bonkSize * (sizeScrollbar.value + 0.5f);
-                    break;
-                case "This is True":
-                    sizeToSpawn = SceneController.thisIsTrueSize * (sizeScrollbar.value + 0.5f);
-                    break;
+                sizeToSpawn = SceneController.objSizes[i] * sizeMultiplier;
+                break;
             }
         }
 

@@ -5,13 +5,8 @@ public class SceneController : MonoBehaviour
     private SpawnObject mySpawnObj;
     private PauseMenuController pauseMenu;
 
-    public GameObject bird;
-    public GameObject bonk;
-    public GameObject thisIsTrue;
-
-    public const float birdSize = 0.22f;
-    public const float bonkSize = 0.2f;
-    public const float thisIsTrueSize = 1f;
+    public static GameObject[] objs;
+    public static float[] objSizes;
 
     void Start()
     {
@@ -20,6 +15,13 @@ public class SceneController : MonoBehaviour
 
         mySpawnObj = FindObjectOfType<SpawnObject>();
         pauseMenu = FindObjectOfType<PauseMenuController>();
+
+        objs = Resources.LoadAll<GameObject>("Prefabs/HoloPrefabs"); //INSERT PATH OF OBJECT PREFABS;
+        objSizes = new float[objs.Length];
+        objSizes[0] = 0.22f; //birdSize
+        objSizes[1] = 0.2f; //bonkSize
+        objSizes[2] = 0.22f; //booksSize
+        objSizes[3] = 1f; //thisIsTrueSize
     }
 
     void Update()
@@ -36,8 +38,9 @@ public class SceneController : MonoBehaviour
 
     private void OnApplicationQuit()
     {
-        bird.transform.localScale = new Vector3(birdSize, birdSize, 0f);
-        bonk.transform.localScale = new Vector3(bonkSize, bonkSize, 0f);
-        thisIsTrue.transform.localScale = new Vector3(thisIsTrueSize, thisIsTrueSize, 0f);
+        for (int i = 0; i < objSizes.Length; i++)
+        {
+            objs[i].transform.localScale = new Vector3(objSizes[i], objSizes[i], 0f);
+        }
     }
 }

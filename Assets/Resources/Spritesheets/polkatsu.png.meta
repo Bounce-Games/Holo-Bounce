@@ -120,9 +120,9 @@ TextureImporter:
       name: polkatsu_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1078
-        width: 907
+        x: 113
+        y: 78
+        width: 794
         height: 894
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -141,10 +141,10 @@ TextureImporter:
       name: polkatsu_1
       rect:
         serializedVersion: 2
-        x: 1056
-        y: 1071
-        width: 825
-        height: 911
+        x: 1053
+        y: 72
+        width: 828
+        height: 909
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,10 +162,10 @@ TextureImporter:
       name: polkatsu_2
       rect:
         serializedVersion: 2
-        x: 1996
-        y: 1073
+        x: 1997
+        y: 72
         width: 881
-        height: 889
+        height: 891
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -183,10 +183,10 @@ TextureImporter:
       name: polkatsu_3
       rect:
         serializedVersion: 2
-        x: 3129
-        y: 1078
-        width: 766
-        height: 884
+        x: 3130
+        y: 78
+        width: 765
+        height: 882
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,10 +204,10 @@ TextureImporter:
       name: polkatsu_4
       rect:
         serializedVersion: 2
-        x: 4196
-        y: 1073
-        width: 804
-        height: 882
+        x: 4194
+        y: 72
+        width: 808
+        height: 883
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,10 +225,10 @@ TextureImporter:
       name: polkatsu_5
       rect:
         serializedVersion: 2
-        x: 165
+        x: 5167
         y: 75
-        width: 803
-        height: 881
+        width: 802
+        height: 882
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

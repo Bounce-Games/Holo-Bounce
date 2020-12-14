@@ -1,64 +1,55 @@
 fileFormatVersion: 2
-guid: 501b169eef399804b808407b9da70b49
+guid: b6448566487946d42897143afb795f37
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2723710538360154768
-    second: rolling_0
+      213: 7382431296982707729
+    second: spicy noodles_0
   - first:
-      213: 7584188847578916601
-    second: rolling_1
+      213: 4488570050746667004
+    second: spicy noodles_1
   - first:
-      213: 742723342180819414
-    second: rolling_2
+      213: -1119193793978031337
+    second: spicy noodles_2
   - first:
-      213: -3073991898714025707
-    second: rolling_3
+      213: 3308138885484528736
+    second: spicy noodles_3
   - first:
-      213: -1576492596864125221
-    second: rolling_4
+      213: -7772390398843433379
+    second: spicy noodles_4
   - first:
-      213: -8806727762762671432
-    second: rolling_5
+      213: -3534642967318567899
+    second: spicy noodles_5
   - first:
-      213: 147328705390256537
-    second: rolling_6
+      213: 8307208970385216902
+    second: spicy noodles_6
   - first:
-      213: 504039271997516929
-    second: rolling_7
+      213: 4650670764137872987
+    second: spicy noodles_7
   - first:
-      213: -455750843481157764
-    second: rolling_8
+      213: 8583605810197522085
+    second: spicy noodles_8
   - first:
-      213: 2474784001419550906
-    second: rolling_9
+      213: 5256273367723770188
+    second: spicy noodles_9
   - first:
-      213: 3532608782874273411
-    second: rolling_10
+      213: -415854016938043431
+    second: spicy noodles_10
   - first:
-      213: -2972558237910264398
-    second: rolling_11
+      213: -2761250891645488119
+    second: spicy noodles_11
   - first:
-      213: 3032328091733210136
-    second: rolling_12
+      213: 8322379195694630103
+    second: spicy noodles_12
   - first:
-      213: -4516938452801234260
-    second: rolling_13
+      213: -4346653637141889916
+    second: spicy noodles_13
   - first:
-      213: -5386167943029592317
-    second: rolling_14
+      213: 9170902635611652713
+    second: spicy noodles_14
   - first:
-      213: -2321358751167358505
-    second: rolling_15
-  - first:
-      213: 8955903998551638466
-    second: rolling_16
-  - first:
-      213: -5707000653447680791
-    second: rolling_17
-  - first:
-      213: 8843757843381286151
-    second: rolling_18
+      213: -4342851749278223776
+    second: spicy noodles_15
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -156,13 +147,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: rolling_0
+      name: spicy noodles_0
       rect:
         serializedVersion: 2
-        x: 230
-        y: 2779
-        width: 548
-        height: 776
+        x: 108
+        y: 2182
+        width: 569
+        height: 672
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,20 +161,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09ae1f5cd409cc520800000000000000
-      internalID: 2723710538360154768
+      spriteID: 11e616b962aa37660800000000000000
+      internalID: 7382431296982707729
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rolling_1
+      name: spicy noodles_1
       rect:
         serializedVersion: 2
-        x: 1120
-        y: 2773
-        width: 577
-        height: 751
+        x: 855
+        y: 2178
+        width: 581
+        height: 669
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,19 +182,145 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f6ab69f293704960800000000000000
-      internalID: 7584188847578916601
+      spriteID: cff46300eaa9a4e30800000000000000
+      internalID: 4488570050746667004
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rolling_2
+      name: spicy noodles_2
       rect:
         serializedVersion: 2
-        x: 2003
-        y: 2775
-        width: 573
+        x: 1599
+        y: 2181
+        width: 590
+        height: 665
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7132e139c23d770f0800000000000000
+      internalID: -1119193793978031337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spicy noodles_3
+      rect:
+        serializedVersion: 2
+        x: 2344
+        y: 2178
+        width: 592
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06446f00aced8ed20800000000000000
+      internalID: 3308138885484528736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spicy noodles_4
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1454
+        width: 599
+        height: 682
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ec745bc1ce22490800000000000000
+      internalID: -7772390398843433379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spicy noodles_5
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 1461
+        width: 610
+        height: 670
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 524e425d2fc62fec0800000000000000
+      internalID: -3534642967318567899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spicy noodles_6
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 1472
+        width: 642
+        height: 657
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 685dfba8b82294370800000000000000
+      internalID: 8307208970385216902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spicy noodles_7
+      rect:
+        serializedVersion: 2
+        x: 2317
+        y: 1450
+        width: 630
+        height: 667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e7bbf6b608a8040800000000000000
+      internalID: 4650670764137872987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spicy noodles_8
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 735
+        width: 632
         height: 685
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -212,20 +329,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d12411d1feae4a00800000000000000
-      internalID: 742723342180819414
+      spriteID: 5a66dc8a1081f1770800000000000000
+      internalID: 8583605810197522085
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rolling_3
+      name: spicy noodles_9
       rect:
         serializedVersion: 2
-        x: 2853
-        y: 2827
-        width: 543
-        height: 488
+        x: 826
+        y: 741
+        width: 616
+        height: 637
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -233,20 +350,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 511d8b2a7acf655d0800000000000000
-      internalID: -3073991898714025707
+      spriteID: c41858d67c802f840800000000000000
+      internalID: 5256273367723770188
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rolling_4
+      name: spicy noodles_10
       rect:
         serializedVersion: 2
-        x: 3750
-        y: 2764
-        width: 562
-        height: 540
+        x: 1558
+        y: 739
+        width: 638
+        height: 645
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -254,20 +371,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd671e4f55c2f1ae0800000000000000
-      internalID: -1576492596864125221
+      spriteID: 9d71df199f69a3af0800000000000000
+      internalID: -415854016938043431
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rolling_5
+      name: spicy noodles_11
       rect:
         serializedVersion: 2
-        x: 131
-        y: 1839
-        width: 586
-        height: 525
+        x: 2289
+        y: 738
+        width: 704
+        height: 704
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -275,20 +392,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8bad5f282c738c580800000000000000
-      internalID: -8806727762762671432
+      spriteID: 9047dbb91f01ea9d0800000000000000
+      internalID: -2761250891645488119
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rolling_6
+      name: spicy noodles_12
       rect:
         serializedVersion: 2
-        x: 1051
-        y: 1887
-        width: 655
-        height: 490
+        x: 33
+        y: 18
+        width: 691
+        height: 700
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -296,20 +413,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 991210e4daa6b0200800000000000000
-      internalID: 147328705390256537
+      spriteID: 7d4ca7dd8c70f7370800000000000000
+      internalID: 8322379195694630103
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rolling_7
+      name: spicy noodles_13
       rect:
         serializedVersion: 2
-        x: 2012
-        y: 1854
-        width: 624
-        height: 688
+        x: 784
+        y: 20
+        width: 696
+        height: 700
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -317,20 +434,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18c22402c05bef600800000000000000
-      internalID: 504039271997516929
+      spriteID: 48c7f7ceb859da3c0800000000000000
+      internalID: -4346653637141889916
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rolling_8
+      name: spicy noodles_14
       rect:
         serializedVersion: 2
-        x: 2924
-        y: 1861
-        width: 529
-        height: 731
+        x: 1567
+        y: 20
+        width: 651
+        height: 691
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -338,20 +455,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7f8834c509dca9f0800000000000000
-      internalID: -455750843481157764
+      spriteID: 96283598b57954f70800000000000000
+      internalID: 9170902635611652713
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rolling_9
+      name: spicy noodles_15
       rect:
         serializedVersion: 2
-        x: 3695
-        y: 1973
-        width: 597
-        height: 514
+        x: 2342
+        y: 17
+        width: 604
+        height: 681
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -359,197 +476,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab0ae64ffe2385220800000000000000
-      internalID: 2474784001419550906
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rolling_10
-      rect:
-        serializedVersion: 2
-        x: 63
-        y: 984
-        width: 646
-        height: 516
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 38665a1b8f8560130800000000000000
-      internalID: 3532608782874273411
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rolling_11
-      rect:
-        serializedVersion: 2
-        x: 986
-        y: 948
-        width: 542
-        height: 620
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2b5923b280a5fb6d0800000000000000
-      internalID: -2972558237910264398
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rolling_12
-      rect:
-        serializedVersion: 2
-        x: 1918
-        y: 973
-        width: 620
-        height: 531
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 814323e555ef41a20800000000000000
-      internalID: 3032328091733210136
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rolling_13
-      rect:
-        serializedVersion: 2
-        x: 2855
-        y: 957
-        width: 686
-        height: 457
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: caada70b86c9051c0800000000000000
-      internalID: -4516938452801234260
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rolling_14
-      rect:
-        serializedVersion: 2
-        x: 3778
-        y: 964
-        width: 709
-        height: 661
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 30fef1ffacc7045b0800000000000000
-      internalID: -5386167943029592317
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rolling_15
-      rect:
-        serializedVersion: 2
-        x: 223
-        y: 74
-        width: 624
-        height: 767
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7d9dc60d380e8cfd0800000000000000
-      internalID: -2321358751167358505
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rolling_16
-      rect:
-        serializedVersion: 2
-        x: 1150
-        y: 63
-        width: 545
-        height: 773
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2c1cb2c7c33c94c70800000000000000
-      internalID: 8955903998551638466
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rolling_17
-      rect:
-        serializedVersion: 2
-        x: 2031
-        y: 60
-        width: 543
-        height: 794
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9ec24568429acc0b0800000000000000
-      internalID: -5707000653447680791
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rolling_18
-      rect:
-        serializedVersion: 2
-        x: 2932
-        y: 74
-        width: 530
-        height: 780
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 705f05ef6e65bba70800000000000000
-      internalID: 8843757843381286151
+      spriteID: 062761ce7571bb3c0800000000000000
+      internalID: -4342851749278223776
       vertices: []
       indices: 
       edges: []

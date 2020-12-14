@@ -1,28 +1,46 @@
 fileFormatVersion: 2
-guid: 5e10045ed230d0f4eb820bd55268a2e6
+guid: b14be718acfbdba42802545be28f907b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8677607035557551615
-    second: bonk_0
+      213: 4572174771446810534
+    second: controller smash_0
   - first:
-      213: -834547140247273245
-    second: bonk_1
+      213: 7240384597722105831
+    second: controller smash_1
   - first:
-      213: 1420083413037608591
-    second: bonk_2
+      213: 7518256558625958491
+    second: controller smash_2
   - first:
-      213: -5764648503262155133
-    second: bonk_3
+      213: 1368108999378517031
+    second: controller smash_3
   - first:
-      213: 9114892133469047187
-    second: bonk_4
+      213: 7878721282109545911
+    second: controller smash_4
   - first:
-      213: 2285645830402365188
-    second: bonk_5
+      213: 2448007686006343653
+    second: controller smash_5
   - first:
-      213: -1947564464335481952
-    second: bonk_6
+      213: 6123943718408711390
+    second: controller smash_6
+  - first:
+      213: 3565201991272132868
+    second: controller smash_7
+  - first:
+      213: 3669554835962390599
+    second: controller smash_8
+  - first:
+      213: 7219265234723004824
+    second: controller smash_9
+  - first:
+      213: 4969997355398818409
+    second: controller smash_10
+  - first:
+      213: 573813025415697283
+    second: controller smash_11
+  - first:
+      213: -5830220060255536372
+    second: controller smash_12
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -120,148 +138,190 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bonk_0
+      name: controller smash_0
       rect:
         serializedVersion: 2
-        x: 163
+        x: 73
+        y: 31
+        width: 818
+        height: 967
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a7071feab0a37f30800000000000000
+      internalID: 4572174771446810534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller smash_1
+      rect:
+        serializedVersion: 2
+        x: 987
         y: 23
-        width: 702
-        height: 869
+        width: 810
+        height: 925
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ffd96d67f9d0d6870800000000000000
-      internalID: 8677607035557551615
+      spriteID: 7e78f603e630b7460800000000000000
+      internalID: 7240384597722105831
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bonk_1
+      name: controller smash_2
       rect:
         serializedVersion: 2
-        x: 923
-        y: 23
-        width: 843
-        height: 866
+        x: 1943
+        y: 12
+        width: 785
+        height: 977
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e04e3d2cc71b64f0800000000000000
-      internalID: -834547140247273245
+      spriteID: b5aa623b186365860800000000000000
+      internalID: 7518256558625958491
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bonk_2
+      name: controller smash_3
       rect:
         serializedVersion: 2
-        x: 1878
-        y: 23
-        width: 773
-        height: 857
+        x: 2949
+        y: 31
+        width: 760
+        height: 954
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8ee789175625b310800000000000000
-      internalID: 1420083413037608591
+      spriteID: 72cb8f9e2ef7cf210800000000000000
+      internalID: 1368108999378517031
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bonk_3
+      name: controller smash_4
       rect:
         serializedVersion: 2
-        x: 2715
-        y: 20
-        width: 809
-        height: 857
+        x: 3919
+        y: 27
+        width: 763
+        height: 963
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38e621c8abadfffa0800000000000000
-      internalID: -5764648503262155133
+      spriteID: 7bd13784347d65d60800000000000000
+      internalID: 7878721282109545911
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bonk_4
+      name: controller smash_5
       rect:
         serializedVersion: 2
-        x: 3573
-        y: 23
-        width: 842
-        height: 857
+        x: 4878
+        y: 27
+        width: 752
+        height: 962
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 399cc654a1a9e7e70800000000000000
-      internalID: 9114892133469047187
+      spriteID: 5e785d3350219f120800000000000000
+      internalID: 2448007686006343653
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bonk_5
+      name: controller smash_7
       rect:
         serializedVersion: 2
-        x: 4516
-        y: 17
-        width: 800
-        height: 869
+        x: 5789
+        y: 31
+        width: 793
+        height: 967
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4075c7bd5ce38bf10800000000000000
-      internalID: 2285645830402365188
+      spriteID: 4017a4262542a7130800000000000000
+      internalID: 3565201991272132868
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bonk_6
+      name: controller smash_8
       rect:
         serializedVersion: 2
-        x: 5447
-        y: 23
-        width: 751
-        height: 869
+        x: 6724
+        y: 27
+        width: 805
+        height: 967
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a31c16307cd8f4e0800000000000000
-      internalID: -1947564464335481952
+      spriteID: 748ea516ea0ece230800000000000000
+      internalID: 3669554835962390599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller smash_9
+      rect:
+        serializedVersion: 2
+        x: 7663
+        y: 27
+        width: 826
+        height: 967
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 891edfe4b7bff2460800000000000000
+      internalID: 7219265234723004824
       vertices: []
       indices: 
       edges: []

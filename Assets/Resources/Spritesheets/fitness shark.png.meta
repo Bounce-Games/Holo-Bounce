@@ -120,10 +120,10 @@ TextureImporter:
       name: fitness shark_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 334
-        width: 286
-        height: 313
+        x: 33
+        y: 13
+        width: 642
+        height: 704
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,10 +141,10 @@ TextureImporter:
       name: fitness shark_1
       rect:
         serializedVersion: 2
-        x: 359
-        y: 334
-        width: 311
-        height: 311
+        x: 816
+        y: 13
+        width: 703
+        height: 699
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,10 +162,10 @@ TextureImporter:
       name: fitness shark_2
       rect:
         serializedVersion: 2
-        x: 702
-        y: 334
-        width: 316
-        height: 311
+        x: 1597
+        y: 13
+        width: 715
+        height: 699
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -183,10 +183,10 @@ TextureImporter:
       name: fitness shark_3
       rect:
         serializedVersion: 2
-        x: 19
-        y: 6
-        width: 315
-        height: 311
+        x: 2372
+        y: 13
+        width: 708
+        height: 703
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,10 +204,10 @@ TextureImporter:
       name: fitness shark_4
       rect:
         serializedVersion: 2
-        x: 355
-        y: 6
-        width: 306
-        height: 311
+        x: 3134
+        y: 13
+        width: 688
+        height: 704
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,10 +225,10 @@ TextureImporter:
       name: fitness shark_5
       rect:
         serializedVersion: 2
-        x: 698
-        y: 6
-        width: 289
-        height: 311
+        x: 3909
+        y: 15
+        width: 656
+        height: 702
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

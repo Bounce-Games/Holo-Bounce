@@ -1,28 +1,25 @@
 fileFormatVersion: 2
-guid: 5e10045ed230d0f4eb820bd55268a2e6
+guid: 646642dccc694f74dbdf89a8c03027bf
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8677607035557551615
-    second: bonk_0
+      213: 4007426073167254979
+    second: ukulele practice_0
   - first:
-      213: -834547140247273245
-    second: bonk_1
+      213: 4489663194061116248
+    second: ukulele practice_1
   - first:
-      213: 1420083413037608591
-    second: bonk_2
+      213: -2283929450220431325
+    second: ukulele practice_2
   - first:
-      213: -5764648503262155133
-    second: bonk_3
+      213: -4139941778091303939
+    second: ukulele practice_3
   - first:
-      213: 9114892133469047187
-    second: bonk_4
+      213: -1862315806060440179
+    second: ukulele practice_4
   - first:
-      213: 2285645830402365188
-    second: bonk_5
-  - first:
-      213: -1947564464335481952
-    second: bonk_6
+      213: 3609312454620094541
+    second: ukulele practice_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -120,13 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bonk_0
+      name: ukulele practice_0
       rect:
         serializedVersion: 2
-        x: 163
-        y: 23
-        width: 702
-        height: 869
+        x: 60
+        y: 41
+        width: 587
+        height: 631
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,20 +131,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ffd96d67f9d0d6870800000000000000
-      internalID: 8677607035557551615
+      spriteID: 3c5d5c208cc3d9730800000000000000
+      internalID: 4007426073167254979
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bonk_1
+      name: ukulele practice_1
       rect:
         serializedVersion: 2
-        x: 923
-        y: 23
-        width: 843
-        height: 866
+        x: 777
+        y: 41
+        width: 589
+        height: 627
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,20 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e04e3d2cc71b64f0800000000000000
-      internalID: -834547140247273245
+      spriteID: 853982343ec7e4e30800000000000000
+      internalID: 4489663194061116248
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bonk_2
+      name: ukulele practice_2
       rect:
         serializedVersion: 2
-        x: 1878
-        y: 23
-        width: 773
-        height: 857
+        x: 1497
+        y: 41
+        width: 586
+        height: 629
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,20 +173,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8ee789175625b310800000000000000
-      internalID: 1420083413037608591
+      spriteID: 328de8b044add40e0800000000000000
+      internalID: -2283929450220431325
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bonk_3
+      name: ukulele practice_3
       rect:
         serializedVersion: 2
-        x: 2715
-        y: 20
-        width: 809
-        height: 857
+        x: 2220
+        y: 39
+        width: 584
+        height: 633
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,20 +194,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38e621c8abadfffa0800000000000000
-      internalID: -5764648503262155133
+      spriteID: dfb911e13e8fb86c0800000000000000
+      internalID: -4139941778091303939
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bonk_4
+      name: ukulele practice_4
       rect:
         serializedVersion: 2
-        x: 3573
-        y: 23
-        width: 842
-        height: 857
+        x: 2942
+        y: 41
+        width: 581
+        height: 631
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,20 +215,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 399cc654a1a9e7e70800000000000000
-      internalID: 9114892133469047187
+      spriteID: d851c2034a9b726e0800000000000000
+      internalID: -1862315806060440179
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bonk_5
+      name: ukulele practice_5
       rect:
         serializedVersion: 2
-        x: 4516
-        y: 17
-        width: 800
-        height: 869
+        x: 3659
+        y: 39
+        width: 586
+        height: 631
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,29 +236,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4075c7bd5ce38bf10800000000000000
-      internalID: 2285645830402365188
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bonk_6
-      rect:
-        serializedVersion: 2
-        x: 5447
-        y: 23
-        width: 751
-        height: 869
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0a31c16307cd8f4e0800000000000000
-      internalID: -1947564464335481952
+      spriteID: d402605fd8ad61230800000000000000
+      internalID: 3609312454620094541
       vertices: []
       indices: 
       edges: []

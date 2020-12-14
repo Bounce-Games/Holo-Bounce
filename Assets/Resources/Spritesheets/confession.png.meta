@@ -123,10 +123,10 @@ TextureImporter:
       name: confession_0
       rect:
         serializedVersion: 2
-        x: 25
-        y: 326
-        width: 216
-        height: 292
+        x: 73
+        y: 33
+        width: 600
+        height: 814
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,10 +144,10 @@ TextureImporter:
       name: confession_1
       rect:
         serializedVersion: 2
-        x: 281
-        y: 327
-        width: 220
-        height: 295
+        x: 794
+        y: 36
+        width: 610
+        height: 821
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,10 +165,10 @@ TextureImporter:
       name: confession_2
       rect:
         serializedVersion: 2
-        x: 538
-        y: 327
-        width: 221
-        height: 295
+        x: 1510
+        y: 36
+        width: 620
+        height: 828
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -186,10 +186,10 @@ TextureImporter:
       name: confession_3
       rect:
         serializedVersion: 2
-        x: 794
-        y: 326
-        width: 219
-        height: 296
+        x: 2231
+        y: 33
+        width: 613
+        height: 824
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -207,10 +207,10 @@ TextureImporter:
       name: confession_4
       rect:
         serializedVersion: 2
-        x: 25
-        y: 11
-        width: 217
-        height: 292
+        x: 2952
+        y: 36
+        width: 605
+        height: 812
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,10 +228,10 @@ TextureImporter:
       name: confession_5
       rect:
         serializedVersion: 2
-        x: 282
-        y: 9
-        width: 219
-        height: 296
+        x: 3675
+        y: 31
+        width: 608
+        height: 823
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -249,10 +249,10 @@ TextureImporter:
       name: confession_6
       rect:
         serializedVersion: 2
-        x: 537
-        y: 10
-        width: 221
-        height: 296
+        x: 4394
+        y: 31
+        width: 613
+        height: 831
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

@@ -1,28 +1,40 @@
 fileFormatVersion: 2
-guid: 5e10045ed230d0f4eb820bd55268a2e6
+guid: 912f5668676e1b64b947a1daa7eb7057
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8677607035557551615
-    second: bonk_0
+      213: -3295791816970391239
+    second: reading_0
   - first:
-      213: -834547140247273245
-    second: bonk_1
+      213: 7447438598941442813
+    second: reading_1
   - first:
-      213: 1420083413037608591
-    second: bonk_2
+      213: 677633893457205821
+    second: reading_2
   - first:
-      213: -5764648503262155133
-    second: bonk_3
+      213: -4043303818479712327
+    second: reading_3
   - first:
-      213: 9114892133469047187
-    second: bonk_4
+      213: 7880884387521175153
+    second: reading_4
   - first:
-      213: 2285645830402365188
-    second: bonk_5
+      213: 3169325173198066705
+    second: reading_5
   - first:
-      213: -1947564464335481952
-    second: bonk_6
+      213: 4359955114031526127
+    second: reading_6
+  - first:
+      213: 1623344216336474206
+    second: reading_7
+  - first:
+      213: 901931880437035636
+    second: reading_8
+  - first:
+      213: -7967842062268693911
+    second: reading_9
+  - first:
+      213: -4138888626056215662
+    second: reading_10
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -120,13 +132,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bonk_0
+      name: reading_0
       rect:
         serializedVersion: 2
-        x: 163
-        y: 23
-        width: 702
-        height: 869
+        x: 58
+        y: 1363
+        width: 533
+        height: 587
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,20 +146,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ffd96d67f9d0d6870800000000000000
-      internalID: 8677607035557551615
+      spriteID: 93137d7edcef242d0800000000000000
+      internalID: -3295791816970391239
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bonk_1
+      name: reading_1
       rect:
         serializedVersion: 2
-        x: 923
-        y: 23
-        width: 843
-        height: 866
+        x: 688
+        y: 1363
+        width: 530
+        height: 586
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,20 +167,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e04e3d2cc71b64f0800000000000000
-      internalID: -834547140247273245
+      spriteID: df2007092fd9a5760800000000000000
+      internalID: 7447438598941442813
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bonk_2
+      name: reading_2
       rect:
         serializedVersion: 2
-        x: 1878
-        y: 23
-        width: 773
-        height: 857
+        x: 1318
+        y: 1364
+        width: 532
+        height: 584
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,20 +188,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8ee789175625b310800000000000000
-      internalID: 1420083413037608591
+      spriteID: d3a18439f60776900800000000000000
+      internalID: 677633893457205821
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bonk_3
+      name: reading_3
       rect:
         serializedVersion: 2
-        x: 2715
-        y: 20
-        width: 809
-        height: 857
+        x: 1951
+        y: 1363
+        width: 527
+        height: 588
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,20 +209,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38e621c8abadfffa0800000000000000
-      internalID: -5764648503262155133
+      spriteID: 9b74984799c43e7c0800000000000000
+      internalID: -4043303818479712327
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bonk_4
+      name: reading_4
       rect:
         serializedVersion: 2
-        x: 3573
-        y: 23
-        width: 842
-        height: 857
+        x: 58
+        y: 701
+        width: 533
+        height: 582
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,20 +230,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 399cc654a1a9e7e70800000000000000
-      internalID: 9114892133469047187
+      spriteID: 17e1f1288968e5d60800000000000000
+      internalID: 7880884387521175153
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bonk_5
+      name: reading_5
       rect:
         serializedVersion: 2
-        x: 4516
-        y: 17
-        width: 800
-        height: 869
+        x: 687
+        y: 702
+        width: 529
+        height: 580
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,20 +251,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4075c7bd5ce38bf10800000000000000
-      internalID: 2285645830402365188
+      spriteID: 1149c260474bbfb20800000000000000
+      internalID: 3169325173198066705
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bonk_6
+      name: reading_6
       rect:
         serializedVersion: 2
-        x: 5447
-        y: 23
-        width: 751
-        height: 869
+        x: 1318
+        y: 697
+        width: 530
+        height: 588
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,8 +272,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a31c16307cd8f4e0800000000000000
-      internalID: -1947564464335481952
+      spriteID: fe03f70831ca18c30800000000000000
+      internalID: 4359955114031526127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reading_7
+      rect:
+        serializedVersion: 2
+        x: 1948
+        y: 700
+        width: 527
+        height: 585
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e50abe2c6f6478610800000000000000
+      internalID: 1623344216336474206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reading_8
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 31
+        width: 529
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 472bc01444e448c00800000000000000
+      internalID: 901931880437035636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reading_9
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 35
+        width: 531
+        height: 586
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9620f0c1cd98c6190800000000000000
+      internalID: -7967842062268693911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reading_10
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 33
+        width: 524
+        height: 589
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 293c30f29b6bf86c0800000000000000
+      internalID: -4138888626056215662
       vertices: []
       indices: 
       edges: []

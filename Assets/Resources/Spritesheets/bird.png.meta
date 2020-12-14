@@ -123,10 +123,10 @@ TextureImporter:
       name: bird_0
       rect:
         serializedVersion: 2
-        x: 50
-        y: 713
-        width: 631
-        height: 717
+        x: 49
+        y: 0
+        width: 634
+        height: 715
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,10 +144,10 @@ TextureImporter:
       name: bird_1
       rect:
         serializedVersion: 2
-        x: 830
-        y: 713
-        width: 611
-        height: 717
+        x: 828
+        y: 0
+        width: 613
+        height: 715
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,10 +165,10 @@ TextureImporter:
       name: bird_2
       rect:
         serializedVersion: 2
-        x: 1620
-        y: 713
-        width: 584
-        height: 641
+        x: 1617
+        y: 0
+        width: 587
+        height: 715
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -186,10 +186,10 @@ TextureImporter:
       name: bird_3
       rect:
         serializedVersion: 2
-        x: 2353
-        y: 713
-        width: 688
-        height: 658
+        x: 2352
+        y: 0
+        width: 689
+        height: 715
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -207,10 +207,10 @@ TextureImporter:
       name: bird_4
       rect:
         serializedVersion: 2
-        x: 3137
-        y: 713
-        width: 665
-        height: 660
+        x: 3136
+        y: 0
+        width: 668
+        height: 715
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,10 +228,10 @@ TextureImporter:
       name: bird_5
       rect:
         serializedVersion: 2
-        x: 71
+        x: 3920
         y: 0
         width: 671
-        height: 644
+        height: 715
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -249,10 +249,10 @@ TextureImporter:
       name: bird_6
       rect:
         serializedVersion: 2
-        x: 813
+        x: 4662
         y: 0
-        width: 669
-        height: 674
+        width: 671
+        height: 715
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

@@ -1,28 +1,37 @@
 fileFormatVersion: 2
-guid: 5e10045ed230d0f4eb820bd55268a2e6
+guid: cad3282de0a44324b86718f46c57b37b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8677607035557551615
-    second: bonk_0
+      213: 1316739241375921469
+    second: driving_0
   - first:
-      213: -834547140247273245
-    second: bonk_1
+      213: -8711569670870327569
+    second: driving_1
   - first:
-      213: 1420083413037608591
-    second: bonk_2
+      213: 667062420439360186
+    second: driving_2
   - first:
-      213: -5764648503262155133
-    second: bonk_3
+      213: -8153841243986060114
+    second: driving_3
   - first:
-      213: 9114892133469047187
-    second: bonk_4
+      213: 8224454809858828793
+    second: driving_4
   - first:
-      213: 2285645830402365188
-    second: bonk_5
+      213: 5364738869226848943
+    second: driving_5
   - first:
-      213: -1947564464335481952
-    second: bonk_6
+      213: 5338951523783404958
+    second: driving_6
+  - first:
+      213: 1080515407876532859
+    second: driving_7
+  - first:
+      213: -3651265321141360796
+    second: driving_8
+  - first:
+      213: 1326027137373780725
+    second: driving_9
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -120,13 +129,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bonk_0
+      name: driving_0
       rect:
         serializedVersion: 2
-        x: 163
-        y: 23
-        width: 702
-        height: 869
+        x: 67
+        y: 54
+        width: 760
+        height: 753
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,20 +143,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ffd96d67f9d0d6870800000000000000
-      internalID: 8677607035557551615
+      spriteID: d3577081d5ff54210800000000000000
+      internalID: 1316739241375921469
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bonk_1
+      name: driving_1
       rect:
         serializedVersion: 2
-        x: 923
-        y: 23
-        width: 843
-        height: 866
+        x: 947
+        y: 50
+        width: 757
+        height: 753
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,20 +164,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e04e3d2cc71b64f0800000000000000
-      internalID: -834547140247273245
+      spriteID: fee15bb4a894a1780800000000000000
+      internalID: -8711569670870327569
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bonk_2
+      name: driving_2
       rect:
         serializedVersion: 2
-        x: 1878
-        y: 23
-        width: 773
-        height: 857
+        x: 1820
+        y: 45
+        width: 769
+        height: 750
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,20 +185,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8ee789175625b310800000000000000
-      internalID: 1420083413037608591
+      spriteID: ab2ec45bcb1e14900800000000000000
+      internalID: 667062420439360186
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bonk_3
+      name: driving_3
       rect:
         serializedVersion: 2
-        x: 2715
-        y: 20
-        width: 809
-        height: 857
+        x: 2696
+        y: 54
+        width: 774
+        height: 723
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,20 +206,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38e621c8abadfffa0800000000000000
-      internalID: -5764648503262155133
+      spriteID: eac1849e69cb7de80800000000000000
+      internalID: -8153841243986060114
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bonk_4
+      name: driving_4
       rect:
         serializedVersion: 2
-        x: 3573
-        y: 23
-        width: 842
-        height: 857
+        x: 3599
+        y: 50
+        width: 756
+        height: 749
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,20 +227,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 399cc654a1a9e7e70800000000000000
-      internalID: 9114892133469047187
+      spriteID: 9f963e41312232270800000000000000
+      internalID: 8224454809858828793
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bonk_5
+      name: driving_5
       rect:
         serializedVersion: 2
-        x: 4516
-        y: 17
-        width: 800
-        height: 869
+        x: 4505
+        y: 50
+        width: 726
+        height: 760
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,20 +248,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4075c7bd5ce38bf10800000000000000
-      internalID: 2285645830402365188
+      spriteID: fa24ff4f391637a40800000000000000
+      internalID: 5364738869226848943
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bonk_6
+      name: driving_6
       rect:
         serializedVersion: 2
-        x: 5447
-        y: 23
-        width: 751
-        height: 869
+        x: 5390
+        y: 54
+        width: 718
+        height: 758
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,8 +269,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a31c16307cd8f4e0800000000000000
-      internalID: -1947564464335481952
+      spriteID: e9de328bf14c71a40800000000000000
+      internalID: 5338951523783404958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: driving_7
+      rect:
+        serializedVersion: 2
+        x: 6274
+        y: 54
+        width: 706
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7a21d4e903cefe00800000000000000
+      internalID: 1080515407876532859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: driving_8
+      rect:
+        serializedVersion: 2
+        x: 7152
+        y: 54
+        width: 715
+        height: 762
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467aaa02989145dc0800000000000000
+      internalID: -3651265321141360796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: driving_9
+      rect:
+        serializedVersion: 2
+        x: 8024
+        y: 50
+        width: 726
+        height: 753
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa31b5e7aef66210800000000000000
+      internalID: 1326027137373780725
       vertices: []
       indices: 
       edges: []
