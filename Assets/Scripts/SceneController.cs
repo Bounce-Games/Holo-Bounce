@@ -3,12 +3,12 @@
 public class SceneController : MonoBehaviour
 {
     private SpawnObject mySpawnObj;
-    private PauseMenuController pauseMenu;
 
     //Array of objects to bounce
     public static GameObject[] objs;
     //Scales of objects
     public static float[] objSizes;
+    public static bool gamePaused;
 
     void Start()
     {
@@ -16,7 +16,6 @@ public class SceneController : MonoBehaviour
         Application.targetFrameRate = Screen.currentResolution.refreshRate;
 
         mySpawnObj = FindObjectOfType<SpawnObject>();
-        pauseMenu = FindObjectOfType<PauseMenuController>();
 
         objs = Resources.LoadAll<GameObject>("Prefabs/HoloPrefabs"); //INSERT PATH OF OBJECT PREFABS;
         objSizes = new float[objs.Length];
@@ -43,11 +42,11 @@ public class SceneController : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.F) && !pauseMenu.gamePaused)
+        if (Input.GetKeyDown(KeyCode.F) && !gamePaused)
         {
             mySpawnObj.InstantiateObject();
         }
-        if (Input.GetKeyDown(KeyCode.C) && !pauseMenu.gamePaused)
+        if (Input.GetKeyDown(KeyCode.C) && !gamePaused)
         {
             mySpawnObj.Clear();
         }

@@ -8,7 +8,6 @@ public class PauseMenuController : MonoBehaviour
     [SerializeField] private GameObject pauseMenu = null;
     [SerializeField] private TMP_Dropdown dropdown = null;
 
-    public bool gamePaused;
     private SpawnObject mySpawnObj;
 
     void Start()
@@ -31,7 +30,7 @@ public class PauseMenuController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            switch (gamePaused)
+            switch (SceneController.gamePaused)
             {
                 case true:
                     Resume();
@@ -52,7 +51,7 @@ public class PauseMenuController : MonoBehaviour
         Time.timeScale = 1f;
         pauseMenu.SetActive(false);
         pauseMenu.transform.Find("ResumeButton").transform.localScale = new Vector3(1f, 1f, 1f);
-        gamePaused = false;
+        SceneController.gamePaused = false;
     }
 
     public void Pause()
@@ -60,7 +59,7 @@ public class PauseMenuController : MonoBehaviour
         OnDemandRendering.renderFrameInterval = 2;
         Time.timeScale = 0f;
         pauseMenu.SetActive(true);
-        gamePaused = true;
+        SceneController.gamePaused = true;
     }
 
     public void AddDropdownOptions(TMP_Dropdown dropdown, List<string> options)

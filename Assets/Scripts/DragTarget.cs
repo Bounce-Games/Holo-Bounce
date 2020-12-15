@@ -28,7 +28,7 @@ public class DragTarget : MonoBehaviour
 		// Calculate the world position for the mouse.
 		Vector2 worldPos = Camera.main.ScreenToWorldPoint (Input.mousePosition);
 
-		if (Input.GetMouseButtonDown (0))
+		if (Input.GetMouseButtonDown (0) && !SceneController.gamePaused)
 		{
 			// Fetch the first collider.
 			// NOTE: We could do this for multiple colliders.
