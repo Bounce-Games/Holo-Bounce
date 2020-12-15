@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6280535299095539120}
   - component: {fileID: 6280535299095539121}
   - component: {fileID: 6280535299095539134}
-  - component: {fileID: 6280535299095539135}
+  - component: {fileID: 2160082204442392894}
   - component: {fileID: 6280535299095539132}
   m_Layer: 8
   m_Name: Spicy Noodles
@@ -126,8 +126,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
---- !u!70 &6280535299095539135
-CapsuleCollider2D:
+--- !u!58 &2160082204442392894
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -140,8 +140,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 5.08, y: 5.23}
-  m_Direction: 0
+  serializedVersion: 2
+  m_Radius: 2.71
 --- !u!114 &6280535299095539132
 MonoBehaviour:
   m_ObjectHideFlags: 0

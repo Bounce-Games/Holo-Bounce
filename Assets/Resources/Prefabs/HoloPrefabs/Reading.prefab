@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 34110679771288729}
   - component: {fileID: 34110679771288728}
   - component: {fileID: 34110679771288731}
-  - component: {fileID: 34110679771288730}
+  - component: {fileID: 6643616768823731754}
   - component: {fileID: 34110679771288725}
   m_Layer: 8
   m_Name: Reading
@@ -126,8 +126,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
---- !u!70 &34110679771288730
-CapsuleCollider2D:
+--- !u!58 &6643616768823731754
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -139,9 +139,9 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.77}
-  m_Size: {x: 4.01, y: 4}
-  m_Direction: 0
+  m_Offset: {x: 0, y: 0.69}
+  serializedVersion: 2
+  m_Radius: 2.13
 --- !u!114 &34110679771288725
 MonoBehaviour:
   m_ObjectHideFlags: 0

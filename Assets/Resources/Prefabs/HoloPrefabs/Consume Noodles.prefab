@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5687487212660938218}
   - component: {fileID: 5687487212660938216}
   - component: {fileID: 1662717633703442001}
-  - component: {fileID: 3080516368629478285}
+  - component: {fileID: 4604346701073404624}
   - component: {fileID: 7668846893916641239}
   m_Layer: 8
   m_Name: Consume Noodles
@@ -126,8 +126,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
---- !u!70 &3080516368629478285
-CapsuleCollider2D:
+--- !u!58 &4604346701073404624
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -139,9 +139,9 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.57}
-  m_Size: {x: 4.94, y: 5.55}
-  m_Direction: 0
+  m_Offset: {x: 0, y: -0.56}
+  serializedVersion: 2
+  m_Radius: 2.85
 --- !u!114 &7668846893916641239
 MonoBehaviour:
   m_ObjectHideFlags: 0

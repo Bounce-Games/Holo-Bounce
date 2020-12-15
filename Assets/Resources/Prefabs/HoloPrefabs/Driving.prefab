@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6182789574808484743}
   - component: {fileID: 6182789574808484741}
   - component: {fileID: 878348990891038780}
-  - component: {fileID: 3594888936123948512}
+  - component: {fileID: 7887983655818436100}
   - component: {fileID: 8164633316856412602}
   m_Layer: 8
   m_Name: Driving
@@ -126,8 +126,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
---- !u!70 &3594888936123948512
-CapsuleCollider2D:
+--- !u!58 &7887983655818436100
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -139,9 +139,9 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.56, y: -0.31}
-  m_Size: {x: 5.7, y: 6.35}
-  m_Direction: 0
+  m_Offset: {x: -0.57, y: -0.34}
+  serializedVersion: 2
+  m_Radius: 3.23
 --- !u!114 &8164633316856412602
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2330992574149129387}
   - component: {fileID: 2330992574149129386}
   - component: {fileID: 2330992574149129389}
-  - component: {fileID: 2330992574149129388}
+  - component: {fileID: 3089585377091605125}
   - component: {fileID: 2330992574149129391}
   m_Layer: 8
   m_Name: Rolling
@@ -126,8 +126,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
---- !u!70 &2330992574149129388
-CapsuleCollider2D:
+--- !u!58 &3089585377091605125
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -140,8 +140,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 4.33, y: 4.62}
-  m_Direction: 0
+  serializedVersion: 2
+  m_Radius: 2.51
 --- !u!114 &2330992574149129391
 MonoBehaviour:
   m_ObjectHideFlags: 0
