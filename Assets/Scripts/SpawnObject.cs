@@ -4,6 +4,7 @@ using UnityEngine.UI;
 public class SpawnObject : MonoBehaviour
 {
     public GameObject objToSpawn;
+    public Vector2 positionToSpawn;
     public bool spawnRandom;
 
     [SerializeField] private Scrollbar sizeScrollbar = null;
@@ -50,7 +51,7 @@ public class SpawnObject : MonoBehaviour
 
         //Change object scale to new scale (this consequently changes the prefab and needs to be fixed on exit in SceneController) and spawn object
         objToSpawn.transform.localScale = new Vector3(sizeToSpawn, sizeToSpawn, 0f);
-        Instantiate(objToSpawn, new Vector3(0f, 0f, 0f), Quaternion.identity);
+        Instantiate(objToSpawn, positionToSpawn, Quaternion.identity);
     }
 
     //Fades away all objects

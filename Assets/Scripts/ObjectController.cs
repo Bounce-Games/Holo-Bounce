@@ -48,4 +48,14 @@ public class ObjectController : MonoBehaviour
             Destroy(this.gameObject); // :(
         }
     }
+
+    public void OnMouseOver()
+    {
+        SceneController.mouseOverObject = true;
+    }
+
+    private void OnMouseExit()
+    {
+        SceneController.mouseOverObject = false;
+    }
 }
