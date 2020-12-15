@@ -5,7 +5,9 @@ public class SceneController : MonoBehaviour
     private SpawnObject mySpawnObj;
     private PauseMenuController pauseMenu;
 
+    //Array of objects to bounce
     public static GameObject[] objs;
+    //Scales of objects
     public static float[] objSizes;
 
     void Start()
@@ -38,6 +40,7 @@ public class SceneController : MonoBehaviour
 
     private void OnApplicationQuit()
     {
+        //Resets prefab scales
         for (int i = 0; i < objSizes.Length; i++)
         {
             objs[i].transform.localScale = new Vector3(objSizes[i], objSizes[i], 0f);

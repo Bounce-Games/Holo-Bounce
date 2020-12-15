@@ -15,6 +15,7 @@ public class PauseMenuController : MonoBehaviour
     {
         mySpawnObj = FindObjectOfType<SpawnObject>();
 
+        //Adding objects to dropdown menu
         List<string> options = new List<string>();
         options.Add("Random");
         foreach(GameObject obj in SceneController.objs)
@@ -42,6 +43,9 @@ public class PauseMenuController : MonoBehaviour
         }
     }
 
+    //Resume() and Pause() work by switching timeScale and active state of Pause Menu.
+    //OnDemandRendering used to create better performance by skipping every other frame in pause menu.
+
     public void Resume()
     {
         OnDemandRendering.renderFrameInterval = 1;
@@ -65,6 +69,8 @@ public class PauseMenuController : MonoBehaviour
         dropdown.AddOptions(options);
     }
 
+    //Set up in dropdown of the Unity Editor. If the selection is 0, the user chose random so tells SpawnObject to make spawnRandom true and returns. 
+    //Otherwise, sets the objToSpawn to be the the object chosen using the index of the dropdown.
     public void SelectObj(int selection)
     {
         mySpawnObj.spawnRandom = selection == 0;
